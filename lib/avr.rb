@@ -21,6 +21,22 @@ class Avr
     command("25FN")
   end
 
+  def input_hdmi1
+    command("19FN")
+  end
+
+  def input_hdmi2
+    command("20FN")
+  end
+
+  def input_hdmi3
+    command("21FN")
+  end
+
+  def input_hdmi4
+    command("22FN")
+  end
+
   def input_tv
     command("05FN")
   end
