@@ -16,6 +16,7 @@ loop do
     s) Watch Satellite TV
     f) Watch FireTV
     x) Play XBox
+    e) Watch external Source
     m) Listen to music (Sonos)
     +) Volume up
     -) Volume down
@@ -42,6 +43,9 @@ loop do
   when "x"
     tv.input_hdmi1
     avr.input_hdmi1
+  when "e"
+    tv.input_hdmi1
+    avr.input_hdmi4
   when "m"
     tv.power_off
     avr.power_on
